@@ -6,7 +6,7 @@
 #    By: gehovhan <gehovhan@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/27 21:12:42 by gehovhan          #+#    #+#              #
-#    Updated: 2023/06/20 17:00:33 by gehovhan         ###   ########.fr        #
+#    Updated: 2023/07/02 18:12:42 by gehovhan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,8 @@ SRCS			=	src/ft_isalpha.c src/ft_isdigit.c src/ft_isalnum.c  src/ft_isascii.c sr
 					src/ft_strrchr.c src/ft_strncmp.c src/ft_memchr.c   src/ft_memcmp.c src/ft_strnstr.c \
 					src/ft_atoi.c src/ft_calloc.c  src/ft_strdup.c  src/ft_substr.c  src/ft_strjoin.c \
 					src/ft_strtrim.c src/ft_split.c  src/ft_itoa.c src/ft_strmapi.c  src/ft_striteri.c  \
-					src/ft_putchar_fd.c  src/ft_putstr_fd.c src/ft_putendl_fd.c src/ft_putnbr_fd.c
+					src/ft_putchar_fd.c  src/ft_putstr_fd.c src/ft_putendl_fd.c src/ft_putnbr_fd.c \
+					src/ft_strpbrk.c 
 OBJS			= $(SRCS:.c=.o)
 
 BONUS			=	src/ft_lstnew.c src/ft_lstadd_front.c src/ft_lstsize.c \
